@@ -1,0 +1,355 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+html {
+	font-family: "微軟正黑體";
+    background-color: #ffffff;
+    color: #000;
+}
+
+#container {
+	margin: 40px 0px 50px 0px
+}
+
+footer.page-footer {
+	margin: 0
+}
+
+nav.black {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: none;
+    top: 0;
+    height: auto;
+    overflow: hidden;
+    z-index: 999;
+    padding: 0px 5px;
+}
+
+nav.black-off {
+    background-color: rgba(0, 0, 0, 0.9);
+	box-shadow: none;
+	display: none;
+	padding: 0 5px;
+	top: 0;
+	height: auto;
+	overflow: hidden;
+	z-index: 999
+}
+
+nav.black2 {
+    background-color: rgba(0, 0, 0, 0.9);
+	box-shadow: none;
+	position: fixed;
+	top: 0;
+	height: auto;
+	overflow: hidden;
+	padding: 0px;
+	z-index: 999;
+	padding: 0px 5px;
+}
+
+nav ul a {
+    padding: 0px 25px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav .nav-wrapper {
+	position: relative;
+	height: 100%;
+	width: 90%;
+	margin: auto
+}
+
+.material-icons {
+	color: #ccc
+}
+
+nav ul a, nav .brand-logo {
+	color: #fff
+}
+
+.logo_title {
+	background-color: #2098D1;
+	border-radius: 30px;
+	padding: 10px;
+	margin-right: 10px;
+	font-size: 0.9em
+}
+
+.side-nav {
+	width: 200px !important
+}
+
+.side-nav a {
+	font-size: 16px
+}
+
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a>[class*="mdi-"], .side-nav li>a>i.material-icons {
+	margin: 0 5px 0 0;
+	color: inherit
+}
+
+.side-nav a.btn, .side-nav a.btn-large, .side-nav a.btn-large, .side-nav a.btn-floating {
+	margin: 0
+}
+
+h1 {
+	/* 	font-family: museo-slab, Georgia, "Times New Roman", Times, serif; */
+	width: 85%;
+	color: #2098d1;
+	font-weight: bold;
+	margin: 0px auto 80px auto
+}
+
+h5 {
+	font-size: 2.5rem;
+	font-weight: bold
+}
+
+.partitle {
+	font-weight: bold !important;
+	text-shadow: 1px 2px 5px #585858
+}
+
+.fa.fa-rocket {
+	margin-right: 35px
+}
+
+p.light {
+	line-height: 2em;
+	text-align: center;
+}
+
+p.light span {
+	transition: all .25s ease-out;
+	font-weight: bold;
+	padding-right: 5px;
+color: #2098d1;
+}
+
+.left-align.light {
+	font-size: 1.4em;
+	line-height: 2em;
+	margin: 60px 0 100px 0
+}
+
+.container {
+	margin: 70px auto 70px auto;
+	width: 80%;
+	max-width: inherit
+}
+
+.nameTitle {
+	font-family: museo-slab, Georgia, "Times New Roman", Times, serif;
+	font-size: 10em;
+	text-align: center;
+	z-index: -1;
+    color: rgb(68, 68, 68);
+	padding: 0px 50px;
+    margin-top: 1.2em;
+}
+
+.parallax-container {
+	min-height: 480px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255, 255, 255, .9);
+	background-color: rgba(0, 0, 0, 0.6392156862745098);
+}
+
+.parallax-container .section {
+	width: 100%
+}
+
+@media only screen and (max-width:992px) {
+	.parallax-container .section {
+		position: absolute;
+		    top: 10%;
+	}
+
+	#index-banner .section {
+		top: 10%
+	}
+
+}
+
+@media only screen and (max-width:600px) {
+	#index-banner .section {
+		top: 0
+	}
+
+}
+
+.icon-block {
+	padding: 45px 15px
+}
+
+.icon-block .material-icons {
+	font-size: inherit
+}
+
+.col2 {
+	width: 180px
+}
+
+.brown-text {
+	color: #fff !important
+}
+
+.tabs {
+	background-color: #161616;
+	margin: 110px 0px 20px 0
+}
+
+.tabs .tab a {
+	font-size: 30px;
+	color: #fff !important
+}
+
+.tabs .indicator {
+	background-color: #4db6ac !important
+}
+
+a.hero__example-link:hover {
+}
+
+.hero__example-link:hover {
+}
+
+.grid-item p {
+	margin: 0;
+	padding: 5px 10px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	background-color: #3e3e3e
+}
+
+.button {
+text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px 50px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    background-color: #2098d1;
+}
+
+.button:hover {
+	color: #fff
+}
+
+.top {
+	margin-bottom: 65px
+}
+
+.hvr-radial-out {
+	background-color: transparent;
+	color: #2b2b2b
+}
+
+.hvr-radial-out:before {
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.5)
+}
+
+#tiles li p {
+	z-index: 10;
+	position: relative;
+	color: #000
+}
+
+
+#tiles li p a {
+    z-index: 10;
+    position: relative;
+    color: #039be5;
+    text-decoration: underline;
+}
+
+#back-to-top {
+	z-index: 9999;
+	position: fixed;
+	cursor: pointer;
+	z-index: 9999;
+	bottom: 10px;
+	right: 0;
+	margin-right: 15px;
+    font-size: 2.5em;
+	background-color: rgba(121, 121, 121, 0.6);
+	border-radius: 10px;
+	padding: 0px 10px;
+	color: rgba(255, 255, 255, 0.6);
+	transition-duration: 1.5s;
+	-webkit-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	opacity: 0
+}
+
+
+
+
+
+#back-to-top:hover {
+    background: #2098d1;
+    color: #ffffff;
+}
+
+#back-to-top.show {
+	opacity: 1
+}
+
+@media (max-width:768px) {
+	nav .brand-logo {
+	}
+
+	.nameTitle {
+		font-size: 7em
+	}
+
+	.button {
+		padding: 0.6em 0.5em;
+		margin: 5px 0 0 0px;
+	}
+
+}
+
+@media (max-width:480px) {
+	nav .brand-logo {
+		font-size: 1.5em
+	}
+
+	.nameTitle {
+		font-size: 3.5em;
+		padding: 0
+	}
+
+	.teal-text.text-lighten-2 {
+		width: 100%;
+		font-size: 1.5em;
+		line-height: 1.7em;
+		margin: auto
+	}
+
+	.title {
+		font-size: 2.2em;
+		margin: 0px auto 20px auto
+	}
+
+	.title .fa {
+		margin-right: 10px
+	}
+
+	.left-align.light {
+		font-size: 1.1em;
+		margin: auto
+	}
+
+	.button {
+		word-spacing: 0;
+		width: 25%;
+		font-size: inherit
+	}
+
+}
