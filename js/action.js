@@ -98,21 +98,21 @@ if ($('#back-to-top').length) {
 }
 
 /*========== Nav =========*/
-$(window).scroll(function() {
-	if ($(window).scrollTop() >= 20) {
-		$("nav").addClass('black-off');
-	} else {
-		$("nav").removeClass('black');
-	};
-});
+// $(window).scroll(function() {
+// 	if ($(window).scrollTop() >= 20) {
+// 		$("nav").addClass('black-off');
+// 	} else {
+// 		$("nav").removeClass('black');
+// 	};
+// });
 
-$(window).scroll(function() {
-	if ($(window).scrollTop() >= 300) {
-		$("nav").fadeIn(300).addClass('black2');
-	} else {
-		$("nav").removeClass('black2');
-	};
-});
+// $(window).scroll(function() {
+// 	if ($(window).scrollTop() >= 300) {
+// 		$("nav").fadeIn(300).addClass('black2');
+// 	} else {
+// 		$("nav").removeClass('black2');
+// 	};
+// });
 
 
 
