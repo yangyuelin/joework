@@ -7,6 +7,19 @@ $(function() {
   // Materialize.toast(message, displayLength, className, completeCallback);
   Materialize.toast('文字藍色底線有外連至官網哦!', 3400) // 4000 is the duration of the toast
 });
+
+
+/*-------------------------------------------------------------------------------
+	PRE LOADER
+-------------------------------------------------------------------------------*/
+
+$(window).load(function() {
+	$('.preloader').fadeOut(500); // set duration in brackets
+});
+
+
+
+
 /*========== Scroll =========*/
 $('.body').click(function() {
 	event.preventDefault();
