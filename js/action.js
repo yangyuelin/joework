@@ -14,7 +14,7 @@ $(function() {
 -------------------------------------------------------------------------------*/
 
 $(window).load(function() {
-	$('.preloader').fadeOut(500); // set duration in brackets
+	$('.preloader').fadeOut(1500); // set duration in brackets
 });
 
 
